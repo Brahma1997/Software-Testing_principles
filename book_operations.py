@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Function to add a book to the collection
 
 def add_book(df_books, title, author, genre, year):
     new_book = pd.DataFrame({"title": [title], "author": [author], "genre": [genre], "year": [year]})
