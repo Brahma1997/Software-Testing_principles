@@ -11,7 +11,6 @@ books = [
     {"title": "Book 4", "author": "Author C", "genre": "History", "year": 2018}
 ]
 
-# Convert books data to DataFrame
 df_books = pd.DataFrame(books)
 
 # Streamlit UI
