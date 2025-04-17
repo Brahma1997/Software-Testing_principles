@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Bubble Sort Algorithm
 def bubble_sort(books_df, key):
     for i in range(len(books_df) - 1):
         for j in range(len(books_df) - 1 - i):
